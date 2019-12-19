@@ -45,6 +45,7 @@ conda activate ${CUSTOMIZED_ENVIRONMENT_NAME}
 cd ./dataloader
 chmod +x download.sh
 ./download.sh
+# If this script 'download.sh' can not work for you, please manually download data.tar.gz to current path via this link https://drive.google.com/open?id=1I4XKajNP6wtCpek4ZoCoVr2roGSOYBbW .
 tar -zxvf data.tar.gz
 rm -f data.tar.gz
 cd ..
