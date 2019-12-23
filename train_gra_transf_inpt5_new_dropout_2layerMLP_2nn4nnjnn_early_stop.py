@@ -254,10 +254,10 @@ def train_function(epoch):
             logger.info("average acc: {}".format(training_acc.avg))  
 
     
-    logger.info("Begin Evaluating")
+    logger.info("Begin evaluating on validation set")
 
     validation_loss, validation_acc = validate_function(val_loader)
-
+    logger.info("Begin evaluating on testing set")
     test_loss, test_acc = validate_function(test_loader)
     
     writer.add_scalars("loss", {
@@ -335,7 +335,7 @@ def validate_function(data_loader):
 # Part 5. 'main' function
 if __name__ == '__main__':
 
-    logger.info("Begin Evaluating before training")
+    logger.info("Begin evaluating on validation set before training")
     validate_function(val_loader)
     
     logger.info("training status: ")
