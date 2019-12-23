@@ -66,12 +66,12 @@ In order to fully demonstrate the traits of our MGT to both graph and sketch res
 we will provide the codes of all our ablative models reported in our paper.
 We also provide our experimental results including trainging log files, model checkpoints, and TensorBoard curves. The following table provides the download links in Google Drive, which is corresponding to the Table 3 in our paper. **“MGT #17”** is the full model of our MGT.
 
-Network | training script | acc. | log & ckpts & TensorBoard curves
-:-: | :-: | :-: | :-:
-GT #1 | [train_gra_transf_inpt5_new_dropout_2layerMLP_fully_connected_graph_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_fully_connected_graph_early_stop.py) | 0.5249 | [link](https://drive.google.com/open?id=18F4-K8MdjL5cTtDAkMTGRtSkvoTpsNlu), 50M, MD5 checksum 1f703a7aeb38a981bb430965a522b33a.
-GT #7 | [train_gra_transf_inpt5_new_dropout_2layerMLP_4nn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_4nn_early_stop.py) |0.7082 | [link](https://drive.google.com/open?id=1MyWrxdVZNbpYrxTCq4Vf5BlgjWZaNrfp), 50M, MD5 checksum 8615fd91d5291380b9c027ad6dd195d8.
-MGT #13 | [train_gra_transf_inpt5_new_dropout_2layerMLP_4nnjnn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_4nnjnn_early_stop.py) | 0.7237| [link](https://drive.google.com/open?id=1cffhA2O8t8JyGd-824xMw2dpTbM3Ve1T), 100M, MD5 checksum 12958648e3c392bf62d96ec30cf26b79.
-**MGT #17** | [train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py) | **0.7280**| [link](https://drive.google.com/open?id=1qEGk84k8KGK93jRD9OIlW1Ed4c5Iq96Z), 141M, MD5 checksum 7afe439e34f55eb64aa7463134d67367.
+Network | acc. | log & ckpts & TensorBoard curves | training script
+:-: | :-: | :-: | :-
+GT #1 | 0.5249 | [link](https://drive.google.com/open?id=18F4-K8MdjL5cTtDAkMTGRtSkvoTpsNlu), 50M, MD5 checksum 1f703a7aeb38a981bb430965a522b33a. | [train_gra_transf_inpt5_new_dropout_2layerMLP_fully_connected_graph_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_fully_connected_graph_early_stop.py) 
+GT #7 | 0.7082 | [link](https://drive.google.com/open?id=1MyWrxdVZNbpYrxTCq4Vf5BlgjWZaNrfp), 50M, MD5 checksum 8615fd91d5291380b9c027ad6dd195d8. | [train_gra_transf_inpt5_new_dropout_2layerMLP_4nn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_4nn_early_stop.py)
+MGT #13 | 0.7237| [link](https://drive.google.com/open?id=1cffhA2O8t8JyGd-824xMw2dpTbM3Ve1T), 100M, MD5 checksum 12958648e3c392bf62d96ec30cf26b79. | [train_gra_transf_inpt5_new_dropout_2layerMLP_4nnjnn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_4nnjnn_early_stop.py)
+**MGT #17** |  **0.7280**| [link](https://drive.google.com/open?id=1qEGk84k8KGK93jRD9OIlW1Ed4c5Iq96Z), 141M, MD5 checksum 7afe439e34f55eb64aa7463134d67367. | [train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py) 
 
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/accuracy.gif" width = 80% height = 80% /></div>
 
