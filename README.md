@@ -79,6 +79,9 @@ MGT #13 | 0.7237| [link](https://drive.google.com/open?id=1cffhA2O8t8JyGd-824xMw
 If you find this code useful to your research, please cite our paper as the following bibtex:
 ArXiv ...
 
+## License
+This project is licensed under the MIT License
+
 ## Acknowledgement
 Many thanks to the great sketch dataset [**Quick, Draw！**](https://github.com/googlecreativelab/quickdraw-dataset) released by Google.
 
