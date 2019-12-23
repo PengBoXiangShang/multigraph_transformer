@@ -1,5 +1,8 @@
 # Multi-Graph Transformer for Free-Hand Sketch Recognition
 
+![](https://img.shields.io/badge/language-Python-{green}.svg)
+![](https://img.shields.io/npm/l/express.svg)
+
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat.gif" width = 40% height = 40% /></div>
 
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat_graph.png"/></div>
