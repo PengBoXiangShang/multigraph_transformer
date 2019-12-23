@@ -1,6 +1,6 @@
 # Multi-Graph Transformer for Free-Hand Sketch Recognition
 
-<div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat.gif" width = 20% height = 20% /></div>
+<div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat.gif" width = 40% height = 40% /></div>
 
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat_graph.png"/></div>
 
@@ -72,6 +72,8 @@ GT #1 | [train_gra_transf_inpt5_new_dropout_2layerMLP_fully_connected_graph_earl
 GT #7 | [train_gra_transf_inpt5_new_dropout_2layerMLP_4nn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_4nn_early_stop.py) |0.7082 | [link](https://drive.google.com/open?id=1MyWrxdVZNbpYrxTCq4Vf5BlgjWZaNrfp), 50M, MD5 checksum 8615fd91d5291380b9c027ad6dd195d8.
 MGT #13 | [train_gra_transf_inpt5_new_dropout_2layerMLP_4nnjnn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_4nnjnn_early_stop.py) | 0.7237| [link](https://drive.google.com/open?id=1cffhA2O8t8JyGd-824xMw2dpTbM3Ve1T), 100M, MD5 checksum 12958648e3c392bf62d96ec30cf26b79.
 **MGT #17** | [train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py) | **0.7280**| [link](https://drive.google.com/open?id=1qEGk84k8KGK93jRD9OIlW1Ed4c5Iq96Z), 141M, MD5 checksum 7afe439e34f55eb64aa7463134d67367.
+
+<div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/accuracy.gif" width = 50% height = 50% /></div>
 
 ## Citations
 If you find this code useful to your research, please cite our paper as the following bibtex:
