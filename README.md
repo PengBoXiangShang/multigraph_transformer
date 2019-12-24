@@ -3,12 +3,12 @@
 ![](https://img.shields.io/badge/language-Python-{green}.svg)
 ![](https://img.shields.io/npm/l/express.svg)
 
-<div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat.gif" width = 40% height = 40% /></div>
+<div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat.gif" width = 30% height = 30% /></div>
 
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat_graph.png"/></div>
 
 
-This code repository is the official source code of the paper "Multi-Graph Transformer for Free-Hand Sketch Recognition" ([ArXiv Link](https://github.com/PengBoXiangShang/multigraph_transformer)).
+This code repository is the official source code of the paper "Multi-Graph Transformer for Free-Hand Sketch Recognition" ([ArXiv Link](https://github.com/PengBoXiangShang/multigraph_transformer)), by [Peng Xu](http://www.pengxu.net/), [Chaitanya K. Joshi](https://chaitjo.github.io/), [Xavier Bresson](https://www.ntu.edu.sg/home/xbresson/).
 
 
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/MGT_pipeline_details.png"/></div>
@@ -67,7 +67,14 @@ python train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py
 ## Our Experimental Results
 In order to fully demonstrate the traits of our MGT to both graph and sketch researchers,
 we will provide the codes of all our ablative models reported in our paper.
-We also provide our experimental results including trainging log files, model checkpoints, and TensorBoard curves. The following table provides the download links in Google Drive, which is corresponding to the Table 3 in our paper. **“MGT #17”** is the full model of our MGT.
+We also provide our experimental results including trainging log files, model checkpoints, and TensorBoard curves. The following table provides the download links in Google Drive, which is corresponding to the Table 3 in our paper.  
+
+"GT #1" is the original Transformer [[Vaswani *et al*.]](https://arxiv.org/abs/1706.03762), representing each input graph as a fully-connected graph.  
+"GT #7" is a Transformer variant, representing each input graph as a sparse graph, *i.e.*, A^{2-hop} structure defined in our paper.  
+"GT #13" is a Transformer variant, representing each input graph as two sparse graphs, *i.e.*, A^{2-hop} and A^{global}.  
+**“MGT #17”** is the full model of our MGT, representing each input graph as three sparse graphs, *i.e.*, A^{1-hop}, A^{2-hop}, and A^{global}.  
+In the following table and diagram， we can see that multiple sparsely-connected graphs improve the performance of Transformer.  
+Please see details in our ArXiv paper.
 
 Network | acc. | log & ckpts & TensorBoard curves | training script
 :-: | :-: | :-: | :-
@@ -76,17 +83,20 @@ GT #7 | 0.7082 | [link](https://drive.google.com/open?id=1MyWrxdVZNbpYrxTCq4Vf5B
 MGT #13 | 0.7237| [link](https://drive.google.com/open?id=1cffhA2O8t8JyGd-824xMw2dpTbM3Ve1T), 100M, MD5 checksum 12958648e3c392bf62d96ec30cf26b79. | [train_gra_transf_inpt5_new_dropout_2layerMLP_4nnjnn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_4nnjnn_early_stop.py)
 **MGT #17** |  **0.7280**| [link](https://drive.google.com/open?id=1qEGk84k8KGK93jRD9OIlW1Ed4c5Iq96Z), 141M, MD5 checksum 7afe439e34f55eb64aa7463134d67367. | [train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py) 
 
-<div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/accuracy.gif" width = 80% height = 80% /></div>
+<div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/accuracy.gif" width = 60% height = 60% /></div>
 
 ## Citations
 If you find this code useful to your research, please cite our paper as the following bibtex:
-ArXiv ...
+ArXiv ...**coming soon**
 
 ## License
 This project is licensed under the MIT License
 
 ## Acknowledgement
+Xavier Bresson is supported in part by NRF Fellowship NRFF2017-10.  
 Many thanks to the great sketch dataset [**Quick, Draw！**](https://github.com/googlecreativelab/quickdraw-dataset) released by Google.
 
 ## FAQ
-Please see FAQ via this [link](https://github.com/PengBoXiangShang/multigraph_transformer).
+Please see FAQ via this [link](https://github.com/PengBoXiangShang/multigraph_transformer).  
+If you would have further discussion on this code repository, please feel free to send email to Peng Xu.  
+Email: **peng.xu [AT] ntu.edu.sg**
