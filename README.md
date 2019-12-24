@@ -71,10 +71,10 @@ We also provide our experimental results including trainging log files, model ch
 
 "GT #1" is the original Transformer [[Vaswani *et al*.]](https://arxiv.org/abs/1706.03762), representing each input graph as a fully-connected graph.  
 "GT #7" is a Transformer variant, representing each input graph as a sparse graph, *i.e.*, A^{2-hop} structure defined in our paper.  
-"GT #13" is a Transformer variant, representing each input graph as two sparse graphs, *i.e.*, A^{2-hop} and A^{global}.  
+"MGT #13" is a Transformer variant, representing each input graph as two sparse graphs, *i.e.*, A^{2-hop} and A^{global}.  
 **“MGT #17”** is the full model of our MGT, representing each input graph as three sparse graphs, *i.e.*, A^{1-hop}, A^{2-hop}, and A^{global}.  
-In the following table and diagram， we can see that multiple sparsely-connected graphs improve the performance of Transformer.  
-Please see details in our ArXiv paper.
+In the following table and diagram, we can see that multiple sparsely-connected graphs improve the performance of Transformer.  
+Please see details in [our ArXiv paper](https://github.com/PengBoXiangShang/multigraph_transformer).
 
 Network | acc. | log & ckpts & TensorBoard curves | training script
 :-: | :-: | :-: | :-
