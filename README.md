@@ -93,7 +93,6 @@ ArXiv ...**coming soon**
 This project is licensed under the MIT License
 
 ## Acknowledgement
-Xavier Bresson is supported in part by NRF Fellowship NRFF2017-10.  
 Many thanks to the great sketch dataset [**Quick, Draw！**](https://github.com/googlecreativelab/quickdraw-dataset) released by Google.
 
 ## FAQ
