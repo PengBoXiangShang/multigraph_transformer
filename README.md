@@ -8,7 +8,7 @@
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat_graph.png"/></div>
 
 
-This code repository is the official source code of the paper "Multi-Graph Transformer for Free-Hand Sketch Recognition" ([ArXiv Link](https://github.com/PengBoXiangShang/multigraph_transformer)), by [Peng Xu](http://www.pengxu.net/), [Chaitanya K. Joshi](https://chaitjo.github.io/), [Xavier Bresson](https://www.ntu.edu.sg/home/xbresson/).
+This code repository is the official source code of the paper ["Multi-Graph Transformer for Free-Hand Sketch Recognition"](https://arxiv.org/abs/1912.11258) ([ArXiv Link](https://arxiv.org/abs/1912.11258)), by [Peng Xu](http://www.pengxu.net/), [Chaitanya K. Joshi](https://chaitjo.github.io/), [Xavier Bresson](https://www.ntu.edu.sg/home/xbresson/).
 
 
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/MGT_pipeline_details.png"/></div>
@@ -74,7 +74,7 @@ We also provide our experimental results including trainging log files, model ch
 "MGT #13" is an ablative variant of our MGT, representing each input graph as two sparse graphs, *i.e.*, A^{2-hop} and A^{global}.  
 **“MGT #17”** is the full model of our MGT, representing each input graph as three sparse graphs, *i.e.*, A^{1-hop}, A^{2-hop}, and A^{global}.  
 In the following table and diagram, we can see that multiple sparsely-connected graphs improve the performance of Transformer.  
-Please see details in [our ArXiv paper](https://github.com/PengBoXiangShang/multigraph_transformer).
+Please see details in [our ArXiv paper](https://arxiv.org/abs/1912.11258).
 
 Network | acc. | log & ckpts & TensorBoard curves | training script
 :-: | :-: | :-: | :-
@@ -87,7 +87,14 @@ MGT #13 | 0.7237| [link](https://drive.google.com/open?id=1cffhA2O8t8JyGd-824xMw
 
 ## Citations
 If you find this code useful to your research, please cite our paper as the following bibtex:
-ArXiv ...**coming soon**
+```
+@article{xu2019multigraph,
+  title={Multi-Graph Transformer for Free-Hand Sketch Recognition},
+  author={Xu, Peng and Joshi, Chaitanya K and Bresson, Xavier},
+  journal={arXiv preprint arXiv:1912.11258},
+  year={2019}
+}
+```
 
 ## License
 This project is licensed under the MIT License
