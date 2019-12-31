@@ -106,3 +106,6 @@ Many thanks to the great sketch dataset [**Quick, Draw！**](https://github.com/
 Please see FAQ via this [link](https://github.com/PengBoXiangShang/multigraph_transformer).  
 If you would have further discussion on this code repository, please feel free to send email to Peng Xu.  
 Email: **peng.xu [AT] ntu.edu.sg**
+
+Q: How can I download your training/evaluation/testing datasets if I can not access Google Drive?
+A: Now, all our datasets, logs, checkpoints are stored in Google Drive. We will try to upload them into Aliyun or Baidu Yun, and update the download scripts and links. Thanks.
