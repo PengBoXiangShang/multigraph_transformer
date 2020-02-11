@@ -98,6 +98,42 @@ If you find this code useful to your research, please cite our paper as the foll
 }
 ```
 
+## Usage (How to Run Our Baselines)
+
+### Run CNN Baselines
+
+```
+# Based on the aforementioned operations and environment configurations.
+# For brevity, we only provide the code for the two CNN baselines with best performance, i.e., Inceptionv3 and MobileNetv2.
+
+# 1. Enter the 'dataloader' directory.
+cd ${CUSTOMIZED_WORKSPACE}/multigraph_transformer/dataloader/
+
+# 2. Download the training/evaluation/testing datasets (.PNG files) and the associated URL lists from our Google Drive folder. Then extract them into 'dataloader' folder. data_4_cnnbaselines.tar.gz is 558MB, and its MD5 checksum is 8f1132b400eb2bd9186f7f02d5c4d501.
+chmod +x download_4_cnnbaselines.sh
+./download_4_cnnbaselines.sh
+tar -zxvf data_4_cnnbaselines.tar.gz
+rm -f data_4_cnnbaselines.tar.gz
+cd data_4_cnnbaselines
+tar -zxvf tiny_train_set.tar.gz
+rm -f tiny_train_set.tar.gz
+tar -zxvf tiny_val_set.tar.gz
+rm -f tiny_val_set.tar.gz
+tar -zxvf tiny_test_set.tar.gz
+rm -f tiny_test_set.tar.gz
+
+# 3. Switch directory and run the scripts.
+# Please set the input arguments based on your case.
+# When the program starts running, a folder named 'experimental_results/${CUSTOMIZED_EXPERIMENT_NAME}' will be created automatically into ${CUSTOMIZED_WORKSPACE}/multigraph_transformer/baselines/cnn_baselines/, to save your log, checkpoint, and TensorBoard curves.
+python train_inceptionv3.py 
+    --exp ${CUSTOMIZED_EXPERIMENT_NAME}   
+    --batch_size ${CUSTOMIZED_SIZE}   
+    --num_workers ${CUSTOMIZED_NUMBER} 
+    --gpu ${CUSTOMIZED_GPU_NUMBER}
+
+```
+
+
 ## License
 This project is licensed under the MIT License
 
