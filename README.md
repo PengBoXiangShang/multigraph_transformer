@@ -64,6 +64,13 @@ python train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py
     --num_workers ${CUSTOMIZED_NUMBER} 
     --gpu ${CUSTOMIZED_GPU_NUMBER}
 
+# Actually, we got the performance of MGT #17 (reported in Table 3 in our paper) by running the following command.
+python train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop.py 
+    --exp train_gra_transf_inpt5_new_dropout_2layerMLP_2nn4nnjnn_early_stop_001   
+    --batch_size 192   
+    --num_workers 12 
+    --gpu 1
+
 ```
 
 ## Our Experimental Results
