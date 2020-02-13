@@ -140,6 +140,24 @@ python train_inceptionv3.py
 
 ```
 
+### Run RNN Baselines
+
+```
+# Based on the aforementioned operations and environment configurations.
+# For brevity, we only provide the code for the RNN baseline with best performance, i.e., bidirectional GRU.
+
+# 1. Switch directory and run the scripts.
+cd ${CUSTOMIZED_WORKSPACE}/multigraph_transformer/baselines/rnn_baselines/
+# Please set the input arguments based on your case.
+# When the program starts running, a folder named 'experimental_results/${CUSTOMIZED_EXPERIMENT_NAME}' will be created automatically into ${CUSTOMIZED_WORKSPACE}/multigraph_transformer/baselines/rnn_baselines/, to save your log, checkpoint, and TensorBoard curves.
+python train_bigru.py 
+    --exp ${CUSTOMIZED_EXPERIMENT_NAME}   
+    --batch_size ${CUSTOMIZED_SIZE}   
+    --num_workers ${CUSTOMIZED_NUMBER} 
+    --gpu ${CUSTOMIZED_GPU_NUMBER}
+
+```
+
 
 ## License
 This project is licensed under the MIT License
