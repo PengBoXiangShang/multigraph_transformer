@@ -137,6 +137,13 @@ python train_inceptionv3.py
     --batch_size ${CUSTOMIZED_SIZE}   
     --num_workers ${CUSTOMIZED_NUMBER} 
     --gpu ${CUSTOMIZED_GPU_NUMBER}
+    
+# Actually, we got the performance of Inceptionv3 (reported in Table 2 in our paper) by running the following command.
+python train_inceptionv3.py 
+    --exp train_inceptionv3_001   
+    --batch_size 64   
+    --num_workers 12 
+    --gpu 0
 
 ```
 
@@ -155,6 +162,13 @@ python train_bigru.py
     --batch_size ${CUSTOMIZED_SIZE}   
     --num_workers ${CUSTOMIZED_NUMBER} 
     --gpu ${CUSTOMIZED_GPU_NUMBER}
+
+# Actually, we got the performance of Bi-directional GRU (reported in Table 2 in our paper) by running the following command.
+python train_bigru.py 
+    --exp train_bigru_001   
+    --batch_size 256   
+    --num_workers 12 
+    --gpu 0
 
 ```
 
