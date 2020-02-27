@@ -94,7 +94,7 @@ MGT #13 | 0.7237| [link](https://drive.google.com/open?id=1cffhA2O8t8JyGd-824xMw
 
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/accuracy.gif" width = 60% height = 60% /></div>
 
-<div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/bird.gif" width = 60% height = 60% /></div>
+<div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/bird.gif" width = 100% height = 100% /></div>
 
 ## Citations
 If you find this code useful to your research, please cite our paper as the following bibtex:
