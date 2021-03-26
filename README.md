@@ -10,7 +10,7 @@
 
 This code repository is the official source code of the paper ["Multi-Graph Transformer for Free-Hand Sketch Recognition"](https://arxiv.org/abs/1912.11258) ([ArXiv Link](https://arxiv.org/abs/1912.11258)), by [Peng Xu](http://www.pengxu.net/), [Chaitanya K. Joshi](https://chaitjo.github.io/), [Xavier Bresson](https://www.ntu.edu.sg/home/xbresson/).
 
-[blog in Chinese|中文讲解](https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/blog_in_Chinese.pdf)
+**This paper has been accepted by IEEE TNNLS.**
 
 
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/MGT_pipeline_details.png"/></div>
