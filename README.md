@@ -8,7 +8,7 @@
 <div align=center><img src="https://github.com/PengBoXiangShang/multigraph_transformer/blob/master/figures/cat_graph.png"/></div>
 
 
-This code repository is the official source code of the paper ["Multi-Graph Transformer for Free-Hand Sketch Recognition"](https://arxiv.org/abs/1912.11258) ([ArXiv Link](https://arxiv.org/abs/1912.11258)), by [Peng Xu](http://www.pengxu.net/), [Chaitanya K. Joshi](https://chaitjo.github.io/), [Xavier Bresson](https://www.ntu.edu.sg/home/xbresson/).
+This code repository is the official source code of the paper ["Multi-Graph Transformer for Free-Hand Sketch Recognition"](https://arxiv.org/abs/1912.11258) ([IEEE Link](https://ieeexplore.ieee.org/abstract/document/9397867), [arXiv Link](https://arxiv.org/abs/1912.11258)), by [Peng Xu](http://www.pengxu.net/), [Chaitanya K. Joshi](https://chaitjo.github.io/), [Xavier Bresson](https://www.ntu.edu.sg/home/xbresson/).
 
 **This paper has been accepted by IEEE TNNLS.**
 
@@ -104,6 +104,14 @@ If you find this code useful to your research, please cite our paper as the foll
   author={Xu, Peng and Joshi, Chaitanya K and Bresson, Xavier},
   journal={arXiv preprint arXiv:1912.11258},
   year={2019}
+}
+
+@article{xu2021multigraph,
+  title={Multigraph transformer for free-hand sketch recognition},
+  author={Xu, Peng and Joshi, Chaitanya K and Bresson, Xavier},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2021},
+  publisher={IEEE}
 }
 ```
 
